@@ -44,7 +44,7 @@ export default function Register() {
         <div className="bg-white p-8 rounded-lg shadow-lg w-96">
         <div className="flex items-center justify-center mb-6">
             <Image src="/Logo_djp.png" alt="DJP Logo" width={50} height={50} className="mr-3" />
-            <h2 className="text-2xl font-semibold text-center text-yellow-400">Login</h2>
+            <h2 className="text-2xl font-semibold text-center text-yellow-400">Masuk Dulu Ges</h2>
           </div>
           <form onSubmit={handleSubmit}>
             {['Email', 'Password'].map((field, index) => (
